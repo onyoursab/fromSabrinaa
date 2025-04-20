@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>This is for you 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>This is for you 💖</h1>
+
+    <div class="photo-section">
+      <!-- Tombol dan foto -->
+      <div class="photo-block">
+        <button onclick="showPhoto(0)">Click Here!💕</button>
+        <div class="photo-box" id="photo0"></div>
+      </div>
+      <div class="photo-block">
+        <button onclick="showPhoto(1)">Click Here!💕</button>
+        <div class="photo-box" id="photo1"></div>
+      </div>
+      <div class="photo-block">
+        <button onclick="showPhoto(2)">Click Here!💕</button>
+        <div class="photo-box" id="photo2"></div>
+      </div>
+      <div class="photo-block">
+        <button onclick="showPhoto(3)">Click Here!💕</button>
+        <div class="photo-box" id="photo3"></div>
+      </div>
+      <div class="photo-block">
+        <button onclick="showPhoto(4)">Click Here!💕</button>
+        <div class="photo-box" id="photo4"></div>
+      </div>
+      <div class="photo-block">
+        <button onclick="showPhoto(5)">🏍️ Motoran ke kopi nako 🌇</button>
+        <div class="photo-box" id="photo5"></div>
+      </div>
+    </div>
+
+    <!-- Tombol untuk membuka pesan -->
+    <div class="message-reveal">
+      <button onclick="toggleMessage()">💌 Buka Pesan Spesial</button>
+    </div>
+
+    <!-- Pesan tersembunyi -->
+    <div class="message-box" id="message-box">
+      <h2>For you, from my heart 💖</h2>
+      <div class="message-note">
+        <textarea placeholder="Dear kamu,
+
+Aku cuma mau bilang kalau..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
